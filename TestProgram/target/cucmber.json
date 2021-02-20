@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T07:44:04.709Z",
+        "line": 2,
+        "name": "Checking three slides",
+        "description": "",
+        "id": "home-page-with-three-slide-only;checking-three-slides",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13362000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User opens the browser and go to webpage",
+            "match": {
+              "location": "slidersstepdef.SlidersStepDef.user_opens_the_browser_and_go_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4660000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User click shop menu",
+            "match": {
+              "location": "slidersstepdef.SlidersStepDef.user_click_shop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3107000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on Home menu",
+            "match": {
+              "location": "slidersstepdef.SlidersStepDef.user_click_on_Home_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "test home page has three slides only",
+            "match": {
+              "location": "slidersstepdef.SlidersStepDef.test_home_page_has_three_slides_only()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check its only have three slides",
+            "match": {
+              "location": "slidersstepdef.SlidersStepDef.check_its_only_have_three_slides()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home page with three slide only",
+    "description": "",
+    "id": "home-page-with-three-slide-only",
+    "keyword": "Feature",
+    "uri": "file:features/ThreeSliders.feature",
+    "tags": []
+  }
+]
